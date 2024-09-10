@@ -1,12 +1,88 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Mass Calculator</title>
-</head>
-<body>
-    
-</body>
+<html>
+ <head>
+  <title>
+   BMI Calculator
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css">
+
+ </head>
+ <body>
+  <div class="container">
+   <div class="left-section">
+    <h1>
+     Body Mass Index Calculator
+    </h1>
+    <p>
+     Better understand your weight in relation to your height using our body mass index (BMI) calculator. While BMI is not the sole determinant of a healthy weight, it offers a valuable starting point to evaluate your overall health and well-being.
+    </p>
+   </div>
+   <div class="right-section">
+    <h2>
+     Enter your details below
+    </h2>
+    <div class="radio-group">
+     <input checked="" id="metric" name="unit" type="radio"/>
+     <label for="metric">
+      Metric
+     </label>
+     <input id="imperial" name="unit" type="radio"/>
+     <label for="imperial">
+      Imperial
+     </label>
+    </div>
+    <div class="input-group">
+     <input id="height" placeholder="0" type="number"/>
+     <span>
+      cm
+     </span>
+    </div>
+    <div class="input-group">
+     <input id="weight" placeholder="0" type="number"/>
+     <span>
+      kg
+     </span>
+    </div>
+    <div class="result">
+     <p id="welcome">
+      Welcome!
+     </p>
+     <p>
+      Enter your height and weight and you'll see your BMI result by clicking here.
+     </p>
+    </div>
+   </div>
+  </div>
+  <div class="container2">
+    <div class="image">
+     <img src="" alt="">
+    </div>
+    <div class="content">
+     <h1>
+      What your BMI result means
+     </h1>
+     <p>
+      A BMI range of 18.5 to 24.9 is considered a 'healthy weight.' Maintaining a healthy weight may lower your chances of experiencing health issues later on, such as obesity and type 2 diabetes. Aim for a nutritious diet with reduced fat and sugar content, incorporating ample fruits and vegetables. Additionally, strive for regular physical activity, ideally about 30 minutes daily for five days a week.
+     </p>
+    </div>
+   </div>
+   <div class="container3">
+    <div class="card">
+        <img src="" alt="icon">
+        <p id="icon">Helathy Eating</p>
+        <p>Healthy eating promotes weight control, desease pervention, better digestion, immunity, mental clarity and mood.</p>
+    </div>   
+    <div class="card">
+        <img src="" alt="icon">
+        <p id="icon">Regular exercise</p>
+        <p>Exercise improves fitness, aids and weight control, evelvates mood and reduces disease risk, fostering wellness and longevity.</p>
+    </div>   
+    <div class="card">
+        <img src="" alt="icon">
+        <p id="icon">Adequate sleep</p>
+        <p>Sleep enhances mental clarity, emotional and physical wellness, promoting overall restoration and rejuvenation.</p>
+    </div>   
+   </div>
+ </body>
 </html>
