@@ -1,0 +1,144 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 50px;
+    height: 100vh;
+    background: linear-gradient(to right, #e0f7fa, #e0f2f1);
+}
+.container {
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    
+}
+.left-section {
+    padding-right: 50px;
+    padding-left: 50px;
+    width: 550px
+}
+
+.left-section h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #333;
+}
+.left-section p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+.right-section {
+    background: #f7f9fc;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+.right-section h2 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.radio-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.radio-group input {
+    margin-right: 10px;
+}
+.radio-group label {
+    margin-right: 20px;
+    font-size: 16px;
+    color: #333;
+}
+.input-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.input-group input {
+    width: 60px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 10px;
+}
+.input-group span {
+    font-size: 16px;
+    color: #333;
+}
+.result {
+    background: #2979ff;
+    color: #fff;
+    padding: 20px;
+    border-radius: 50px;
+    text-align: start;
+    font-size: 16px;
+}
+
+.result #welcome{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container2 {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding:100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.image {
+    flex: 1;
+    padding-right: 20px;
+}
+.image img {
+    width: 100%;
+    border-radius: 10px;
+}
+.content {
+    flex: 2;
+}
+.content h1 {
+    font-size: 48px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+.content p {
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.5;
+}
+
+.container3{
+    display: flex;
+    align-items: center;
+    background: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 110px;
+}
+
+.container3 .card{
+    flex: 1;
+}
+
+.container3 #icon{
+    font-size: 32px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+}
+
+.container3 p{
+    font-size: 16px;
+    color: #7f8c8d;
+    line-height: 1.5;
+}
