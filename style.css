@@ -124,11 +124,17 @@ body {
     background: #ffffff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding: 110px;
+    padding: 80px;
 }
 
-.container3 .card{
+.container3 .card {
     flex: 1;
+    width: 280px;
+    height: 300px; 
+    margin: 20px; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); 
 }
 
 .container3 #icon{
