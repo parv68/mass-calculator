@@ -72,6 +72,11 @@ body {
     font-size: 16px;
     color: #333;
 }
+.result span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
 .result {
     background: #2979ff;
     color: #fff;
