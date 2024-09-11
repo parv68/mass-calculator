@@ -88,11 +88,10 @@ body {
 .container2 {
     display: flex;
     align-items: center;
-    background-color: #ffffff;
-    padding: 20px;
+    background: #ffffff;
     border-radius: 20px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-    padding:100px;
+    padding: 40px;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -143,6 +142,10 @@ body {
     font-size: 32px;
     color: #2c3e50;
     margin-bottom: 10px;
+}
+
+.container3 img{
+    padding-left: 50px;
 }
 
 .container3 p{
