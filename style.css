@@ -156,3 +156,15 @@ body {
     color: #7f8c8d;
     line-height: 1.5;
 }
+
+@media screen and (max-width: 1200px) {
+    .container, .container2, .container3{
+        flex-direction: column;
+    }
+    .container3 .card{
+        width: 100%;
+        margin: 10px;
+
+    }
+    
+}
